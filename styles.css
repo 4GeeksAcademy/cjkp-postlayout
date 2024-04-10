@@ -1,0 +1,60 @@
+
+body{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: black;
+}
+.card{  
+    position: relative;
+    width: 400px;
+    min-height: 500px;
+    background: white;
+    padding: 20px;
+
+}
+.card .top{  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card .top .details{ 
+    display: flex;
+    align-items: center;
+}
+.post-image{    
+    top: 0;
+    left: 0;
+}
+.card .top .details h3{ 
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+
+}
+.card .top .details h3 span{
+    color: #4d4d4f;
+}
+.dot{   
+    transform: scale(0.8);
+}
+
+.imgBx .post-image{ 
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.actionBtns{    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.likes{ 
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+}
+.description{   
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+}
